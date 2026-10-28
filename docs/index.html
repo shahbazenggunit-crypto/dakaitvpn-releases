@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dakait Technologies – Software &amp; App Development</title>
+<meta name="description" content="Dakait Technologies is a software company from Gopalganj, Bihar, India. We build DakaitVPN, a fast and private VPN app for Android.">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0b0e15;--card:#151a26;--edge:#232a3a;--text:#e5e7eb;--muted:#9aa4b8;--gold:#e9b949;--cyan:#22d3ee}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.6}
+  a{color:var(--cyan);text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+  header{position:sticky;top:0;background:rgba(11,14,21,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--edge);z-index:5}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;font-size:18px}
+  .brand img{width:34px;height:34px;border-radius:9px}
+  .nav nav a{color:var(--muted);margin-left:22px;font-size:14px}
+  .nav nav a:hover{color:#fff}
+  .hero{padding:90px 0 70px;text-align:center;background:radial-gradient(ellipse at top,#16324a 0%,transparent 60%)}
+  .hero h1{font-size:clamp(32px,6vw,54px);margin:0 0 14px;line-height:1.15;color:#fff}
+  .hero h1 span{color:var(--gold)}
+  .hero p{color:var(--muted);font-size:18px;max-width:640px;margin:0 auto 30px}
+  .btn{display:inline-block;padding:13px 24px;border-radius:12px;font-weight:600}
+  .btn.gold{background:var(--gold);color:#111}
+  .btn.line{border:1px solid var(--edge);color:#fff;margin-left:10px}
+  section{padding:60px 0}
+  h2{font-size:28px;margin:0 0 8px;color:#fff}
+  .sub{color:var(--muted);margin:0 0 30px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--edge);border-radius:18px;padding:22px}
+  .card h3{margin:8px 0 6px;color:#fff;font-size:17px}
+  .card p{margin:0;color:var(--muted);font-size:14px}
+  .ico{font-size:26px}
+  .product{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+  .product img{width:120px;border-radius:26px}
+  @media(max-width:720px){.product{grid-template-columns:1fr}.nav nav a{margin-left:12px}.btn.line{margin:10px 0 0}}
+  .info td{padding:8px 14px 8px 0;vertical-align:top;font-size:15px}
+  .info td:first-child{color:var(--muted);white-space:nowrap}
+  footer{border-top:1px solid var(--edge);padding:28px 0;color:var(--muted);font-size:13px}
+  footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#"><img src="logo.png" alt="">Dakait Technologies</a>
+  <nav><a href="#about">About</a><a href="#products">Products</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <h1>Software that keeps you <span>private</span> and connected</h1>
+  <p>Dakait Technologies is an Indian software company. We design and build mobile apps, starting with DakaitVPN – a fast, secure VPN for Android.</p>
+  <a class="btn gold" href="#products">Our products</a><a class="btn line" href="#contact">Contact us</a>
+</div></div>
+
+<section id="about"><div class="wrap">
+  <h2>About us</h2>
+  <p class="sub">A registered Micro enterprise under the Ministry of MSME, Government of India.</p>
+  <div class="grid">
+    <div class="card"><div class="ico">💻</div><h3>App development</h3><p>We write, test and maintain Android software built for real people on real networks.</p></div>
+    <div class="card"><div class="ico">🔐</div><h3>Privacy first</h3><p>No tracking of the websites you visit. We keep only what is needed to run the service.</p></div>
+    <div class="card"><div class="ico">🌍</div><h3>Global servers</h3><p>WireGuard servers in Asia, Europe and America for fast, stable connections.</p></div>
+    <div class="card"><div class="ico">🤝</div><h3>Real support</h3><p>Questions are answered by our own team by email and Telegram.</p></div>
+  </div>
+</div></section>
+
+<section id="products"><div class="wrap product">
+  <div>
+    <img src="logo.png" alt="DakaitVPN logo">
+    <h2 style="margin-top:16px">DakaitVPN</h2>
+    <p class="sub">Fast, private WireGuard VPN for Android. Connect in one tap.</p>
+    <a class="btn gold" href="https://github.com/shahbazenggunit-crypto/dakaitvpn-releases/raw/main/DakaitVPN.apk">Download for Android</a>
+  </div>
+  <div class="grid" style="grid-template-columns:1fr 1fr">
+    <div class="card"><div class="ico">⚡</div><h3>One-tap connect</h3><p>Modern WireGuard protocol.</p></div>
+    <div class="card"><div class="ico">🛡️</div><h3>Kill Switch</h3><p>Your IP never leaks.</p></div>
+    <div class="card"><div class="ico">🔀</div><h3>Split tunneling</h3><p>Choose which apps use VPN.</p></div>
+    <div class="card"><div class="ico">👑</div><h3>Free &amp; Premium</h3><p>Free hours or Premium plans.</p></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2>Contact</h2>
+  <p class="sub">We usually reply within 24 hours.</p>
+  <div class="card"><table class="info">
+    <tr><td>Company</td><td>Dakait Technologies (Proprietorship)</td></tr>
+    <tr><td>Udyam Reg. No.</td><td>UDYAM-BR-13-0050120</td></tr>
+    <tr><td>Address</td><td>Arna Kaparpura Road, Gopalganj, Bihar 841440, India</td></tr>
+    <tr><td>Email</td><td><a href="mailto:dakaithelp@gmail.com">dakaithelp@gmail.com</a></td></tr>
+    <tr><td>Telegram</td><td><a href="https://t.me/DakaitVPN">t.me/DakaitVPN</a></td></tr>
+  </table></div>
+</div></section>
+
+<footer><div class="wrap row">
+  <span>© 2026 Dakait Technologies. All rights reserved.</span>
+  <span><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></span>
+</div></footer>
+</body>
+</html>
